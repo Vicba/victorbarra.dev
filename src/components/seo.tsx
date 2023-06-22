@@ -1,11 +1,13 @@
 import { Helmet } from 'react-helmet'
 
+import Logo from "../images/victor.png"
+
 export default function Seo() {
   const meta = {
     title: "Victor Barra",
     description: "Developers thats figuring all stuff out",
     url: "victorbarra.dev",
-    image: "/victor.png"
+    image: Logo
   }
 
 
