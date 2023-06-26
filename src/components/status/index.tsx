@@ -22,9 +22,9 @@ export default function Status() {
 
     return (
         <p className="w-5/6 text-white/50 text-sm mb-10 text-center">
-            The time is <span className="font-bold text-white/60">{time}</span> for me, so I'm
+            The time is <span className="font-bold text-white/70">{time}</span> for me, so I'm
             probably{" "}
-            <span className="font-bold text-white/60">{awake ? "up and available" : "sleeping"}</span>. I'll
+            <span className="font-bold text-white/70">{awake ? "up and available" : "sleeping"}</span>. I'll
             respond as soon as possible.
         </p>
     );

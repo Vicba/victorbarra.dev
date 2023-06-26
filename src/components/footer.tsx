@@ -1,17 +1,15 @@
-import { faGithub, faLinkedin } from "@fortawesome/fontawesome-free-brands";
-import { faFile, faEnvelope, faBook } from "@fortawesome/fontawesome-free-solid";
-
 import Footer_link from "../components/footer_link";
 
 import CV from "../assets/CV.pdf";
 import { Blog, GitHubIcon, LinkedinLogo, MailIcon, Resume, SpotifyLogo, TwitterIcon } from "../Icons";
 import Status from "./status";
+import Spotify from "./spotify";
 
 export default function Footer() {
   return (
     <section
       id="footer"
-      className="md:h-[40vh] w-full bg-dark-blue text-white flex flex-col items-center justify-center py-28 border-none md:pt-30"
+      className="w-full bg-dark-blue text-white flex flex-col items-center justify-center py-24 border-none md:h-full  md:pt-30"
     >
       <h1 className="my-5 font-bold text-lg">Let's talk!</h1>
       <Status/>
@@ -55,6 +53,8 @@ export default function Footer() {
           icon={<SpotifyLogo/>}
         />
       </div>
+
+      <Spotify/>
 
       <p className="text-gray-400 flex items-center">
         Victor Barra • {new Date().getFullYear()}
