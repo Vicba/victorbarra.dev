@@ -1,7 +1,5 @@
 import Victor from '../assets/images/Victor.jpeg'
 
-import {motion} from "framer-motion"
-
 export default function Profile_image() {
     return (
         <>

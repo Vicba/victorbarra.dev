@@ -1,9 +1,10 @@
-import About from './components/about'
+import About from './sections/about'
 import Seo from './components/seo'
-import Projects from './components/projects'
-import Skillset from './components/skillset'
-import Footer from './components/footer'
-import Hero from './components/hero'
+import Projects from './sections/projects'
+import Skillset from './sections/skillset'
+import Footer from './sections/footer'
+import Hero from './sections/hero'
+import ScrollButton from './components/scrollButton'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <Projects/>
       <Skillset/>
       <Footer/>
+      <ScrollButton/>
     </>
   )
 }

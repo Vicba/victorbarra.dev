@@ -1,5 +1,5 @@
 import Image from "../assets/images/bg.png";
-import Profile_image from "./../components/profile_image";
+import Profile_image from "../components/profile_image";
 
 import { faLongArrowAltRight } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

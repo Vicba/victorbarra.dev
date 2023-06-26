@@ -1,6 +1,6 @@
 import { Helmet } from 'react-helmet'
 
-import Logo from "../images/victor.png"
+import Logo from "../assets/images/Victor.jpeg"
 
 export default function Seo() {
   const meta = {
