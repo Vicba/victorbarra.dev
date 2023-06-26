@@ -1,5 +1,3 @@
-import React from 'react'
-
 import Java from '../assets/images/java.png'
 import ReactIcon from '../assets/images/react.png'
 import Nodejs from '../assets/images/node.png'

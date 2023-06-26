@@ -1,4 +1,3 @@
-import React from 'react'
 import Languages_card from '../components/languages_card'
 import Tools_items from '../components/tools_items'
 

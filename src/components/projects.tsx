@@ -1,21 +1,40 @@
-import React from "react";
-
 import Java from "../assets/images/java.png";
 import ReactIcon from "../assets/images/react.png";
 import Nodejs from "../assets/images/node.png";
-import Python from "../assets/images/python.png";
+// import Python from "../assets/images/python.png";
 import Javascript from "../assets/images/js.png";
 import Tailwind from "../assets/images/tailwind.png";
-import Github from "../assets/images/java.png";
-import Figma from "../assets/images/figma.png";
+// import Github from "../assets/images/java.png";
+// import Figma from "../assets/images/figma.png";
 import AWS from "../assets/images/aws.png";
 import Firebase from "../assets/images/firebase.png";
 import MySQL from "../assets/images/mysql.png";
 import MongoDB from "../assets/images/mongoDB.png";
-import Linux from "../assets/images/linux.png";
-import Redux from "../assets/images/redux.png";
+// import Linux from "../assets/images/linux.png";
+// import Redux from "../assets/images/redux.png";
+
+import {useEffect} from "react"
+import {motion, useAnimation} from "framer-motion"
+import { useInView } from "react-intersection-observer";
+
+
+const boxVariant = {
+  visible: { opacity: 1, scale: 1, transition: { duration: 0.5 } },
+  hidden: { opacity: 0, scale: 0.7 }
+};
 
 function Projects() {
+  const control = useAnimation();
+  const [ref, inView] = useInView()
+
+  useEffect(() => {
+    if (inView) {
+      control.start("visible");
+    } else {
+      control.start("hidden");
+    }
+  }, [control, inView]);
+
   return (
     <section
       id="projects"
@@ -31,7 +50,13 @@ function Projects() {
           </p>
         </div>
 
-        <div className="flex flex-col space-y-10 items-start justify-center lg:flex-row lg:space-x-20 lg:space-y-0">
+        <motion.div 
+          ref={ref}
+          variants={boxVariant}
+          initial="hidden"
+          animate={control}
+          className="flex flex-col space-y-10 items-start justify-center lg:flex-row lg:space-x-20 lg:space-y-0">
+
           <a href="https://github.com/Vicba/Chapro" target="_blank">
             <div className="border rounded-xl shadow-xl w-70 mx-10 md:w-60 md:mx-3 lg:h-98">
               <div className="bg-gray-400 flex items-center justify-center h-20 rounded-t-xl bg-blue-500/60 backdrop-brightness-75">
@@ -105,7 +130,7 @@ function Projects() {
               </div>
             </div>
           </a>
-        </div>
+        </motion.div>
       </div>
     </section>
   );

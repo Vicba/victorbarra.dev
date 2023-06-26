@@ -1,6 +1,3 @@
-import React from 'react'
-
-
 import Github from '../assets/images/github.png'
 import Figma from '../assets/images/figma.png'
 import AWS from '../assets/images/aws.png'
