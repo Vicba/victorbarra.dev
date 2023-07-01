@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import cx from 'classnames';
-import {motion} from "framer-motion"
+import {AnimatePresence, motion} from "framer-motion"
 import { ArrowUp } from '../Icons';
 
 const ScrollToTopButton =() => {
@@ -30,15 +30,17 @@ const ScrollToTopButton =() => {
   };
 
   return (
-    <motion.button
+    <AnimatePresence>
+      <motion.button
         initial={{opacity: 0}}
         animate={{opacity: 1}}
         exit={{opacity: 0}}
         transition={{duration: 0.75}}
-        className={cx('fixed bottom-5 right-5 bg-gray-600 text-white rounded-full p-3 shadow-lg transition-opacity', isVisible ? 'block' : 'hidden')}
+        className={cx('fixed bottom-8 right-8 bg-gray-600 text-white rounded-full p-3 shadow-lg transition-opacity', isVisible ? 'block' : 'hidden')}
         onClick={scrollToTop}>
           <ArrowUp/>
     </motion.button>
+    </AnimatePresence>
   );
 };
 
