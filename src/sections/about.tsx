@@ -14,8 +14,7 @@ export default function About() {
           <p>I'm an applied Computer Science student from Bruges, Belgium.</p>
           <br />
           <p>
-            I find joy in developing new projects that have the potential to
-            solve real-world problems or make our lives much easier, whether
+            I find joy in developing projects that could solve real-world problems or make our lives much easier, whether
             it's writing code or exploring the latest advancements in
             technology. I'm always eager to dive into new challenges!
           </p>
@@ -37,7 +36,7 @@ export default function About() {
             >
               blog
             </a>
-            , where I share my thoughts and experiences.
+            , where I share some of my thoughts and experiences.
           </p>
           <br />
 

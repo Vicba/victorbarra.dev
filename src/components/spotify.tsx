@@ -1,4 +1,4 @@
-import {useLanyard} from "use-lanyard"
+// import {useLanyard} from "use-lanyard"
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { getNowPlaying } from "../lib/spotify";
