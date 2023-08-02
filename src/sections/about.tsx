@@ -22,7 +22,7 @@ export default function About() {
           <p>
             Currently majoring in AI and learning full-stack development on the
             side. My journey involves continuous learning, making mistakes, and
-            not giving up.
+            keep going.
           </p>
           <br />
 

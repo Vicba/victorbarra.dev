@@ -1,14 +1,15 @@
-import Java from "../assets/images/java.png";
+// import Java from "../assets/images/java.png";
 import ReactIcon from "../assets/images/react.png";
 import Nodejs from "../assets/images/node.png";
-// import Python from "../assets/images/python.png";
-import Javascript from "../assets/images/js.png";
+import Python from "../assets/images/python.png";
+// import Javascript from "../assets/images/js.png";
 import Tailwind from "../assets/images/tailwind.png";
+import Nextjs from '../assets/images/nextjs-icon.svg'
 // import Github from "../assets/images/java.png";
 // import Figma from "../assets/images/figma.png";
 import AWS from "../assets/images/aws.png";
 import Firebase from "../assets/images/firebase.png";
-import MySQL from "../assets/images/mysql.png";
+// import Postgresql from "../assets/images/postgresql.png";
 import MongoDB from "../assets/images/mongoDB.png";
 // import Linux from "../assets/images/linux.png";
 // import Redux from "../assets/images/redux.png";
@@ -106,26 +107,25 @@ function Projects() {
             </div>
           </a>
 
-          <a href="https://github.com/Vicba/Kinderdome" target="_blank">
+          <a href="https://github.com/Vicba/SentimentAPI" target="_blank">
             <div className="border rounded-xl shadow-xl w-70 mx-10 md:w-60 md:mx-3 lg:h-98">
               <div className="bg-gray-400 flex items-center justify-center h-20 rounded-t-xl bg-green-600/60 backdrop-brightness-75">
                 <p className="text-2xl font-bold absolute text-white">
-                  Kinderdome
+                  SentimentAPI
                 </p>
               </div>
               <div className="py-2 px-5">
                 <h3 className="text-left font-extrabold text-xl mt-3 text-dark-blue">
-                  Mars
+                  SentimentAPI
                 </h3>
                 <p className="text-left text-gray-400 mt-2 pb-1">
-                  Kinderdome is a full stack school project where a team of 5
-                  students made a mock start-up which offers data management
-                  software for kindergartens
+                  SentimentAPI is an API that allows users to analyze the sentiment of a text with NLP (AI). 
+                  Users can create API keys and use them to make requests to the API.
                 </p>
                 <div className="flex flex-row justify-start items-center mt-12 mb-3 space-x-3">
-                  <img src={Java} alt="java" className="h-7" />
-                  <img src={Javascript} alt="Javascript" className="h-6" />
-                  <img src={MySQL} alt="mlysql" className="h-7" />
+                  <img src={Nextjs} alt="nextjs" className="h-6" />
+                  <img src={Python} alt="python" className="h-7" />
+                  <img src={Tailwind} alt="tailwindcss" className="h-7" />
                 </div>
               </div>
             </div>
