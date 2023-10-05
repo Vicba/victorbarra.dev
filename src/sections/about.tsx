@@ -10,43 +10,48 @@ export default function About() {
           </h2>
         </div>
 
-        <div className="w-4/5 md:w-3/5 my-2 text-base md:mx-3 md:text-lg  text-gray-500">
-          <p>I'm an applied Computer Science student from Bruges, Belgium.</p>
-          <br />
-          <p>
+        <div className="flex flex-col gap-5 w-4/5 md:w-3/5 my-2 text-base md:mx-3 md:text-lg text-gray-800/70">
+     
+          <p className="flex flex-row gap-2">
+            <span>📍</span> 
+            I'm an applied Computer Science student from Bruges, Belgium.
+          </p>
+          <p className="flex flex-row gap-2">
+            <span >👨‍💻</span> 
             I find joy in developing projects that could solve real-world problems or make our lives much easier, whether
             it's writing code or exploring the latest advancements in
-            technology. I'm always eager to dive into new challenges!
+            technology. I'm always open to dive into new challenges!
           </p>
-          <br />
-          <p>
+          <p className="flex flex-row gap-2">
+            <span >🎓</span>
             Currently majoring in AI and learning full-stack development on the
             side. My journey involves continuous learning, making mistakes, and
             keep going.
           </p>
-          <br />
 
-          <p>
-            When I'm not coding, you'll find me reading, listening to music,
-            playing golf, going for a run, or just hanging out with friends.
-            Check out my{" "}
-            <a
-              className="font-bold text-egyptian-blue hover:underline"
-              href="https://blog-victor-barra.netlify.app/"
-            >
-              blog
-            </a>
-            , where I share some of my thoughts and experiences.
+          <p className="flex flex-row gap-2" >
+            <span>⚡</span>
+            <span>
+              When I'm not coding, you'll find me reading, listening to music,
+              playing golf, going for a run, or just hanging out with friends.
+              Check out my{" "}
+              <a
+                className="font-bold text-egyptian-blue hover:underline"
+                href="https://blog-victor-barra.netlify.app/"
+                target="_blank"
+              >
+                blog
+              </a>
+              , where I share some of my thoughts and experiences.
+            </span>
           </p>
-          <br />
 
-          <p>
+          <p className="text-center mt-5">
             Do you want to learn more about me or just have a fun chat?{" "}
             <a className="underline" href="#footer">
               Hit me up!
             </a>{" "}
-          </p>
-          <br />
+          </p>     
         </div>
       </div>
     </section>

@@ -36,6 +36,8 @@ function Projects() {
     }
   }, [control, inView]);
 
+
+
   return (
     <section
       id="projects"
@@ -56,80 +58,61 @@ function Projects() {
           variants={boxVariant}
           initial="hidden"
           animate={control}
-          className="flex flex-col space-y-10 items-start justify-center lg:flex-row lg:space-x-20 lg:space-y-0">
-
-          <a href="https://github.com/Vicba/Chapro" target="_blank">
-            <div className="border rounded-xl shadow-xl w-70 mx-10 md:w-60 md:mx-3 lg:h-98">
-              <div className="bg-gray-400 flex items-center justify-center h-20 rounded-t-xl bg-blue-500/60 backdrop-brightness-75">
-                <p className="text-2xl font-bold absolute text-white">Chapro</p>
-              </div>
-              <div className="py-2 px-5">
-                <h3 className="text-left font-extrabold text-xl mt-3 text-dark-blue">
-                  Chapro
-                </h3>
-                <p className="text-left text-gray-400 mt-2 ">
-                  Chapro is a project management app that allows users to
-                  schedule and assign tasks with team members. It helps you stay
-                  organized and collaborate effectively.
-                </p>
-                <div className="flex flex-row justify-start mt-6 mb-3">
-                  <img src={Firebase} alt="firebase" className="h-8" />
-                  <img src={ReactIcon} alt="react" className="h-7" />
+          className="w-full grid grid-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 mb-12 gap-3 sm:gap-2"
+          >
+             <a href="https://github.com/Vicba/Chapro" target="_blank">
+                <div className="max-w-[350px] sm:max-w-[400px] m-auto text-left flex flex-col h-36 p-4 bg-white/10 rounded-md border border-slate-400 hover:border-slate-700 transition-colors duration-75 cursor-pointer">
+                    <h1 className="font-semibold mb-1">Chapro</h1>
+                    <p className="text-sm text-gray-800/70">Project management app that allows users to
+                      schedule and assign tasks with team members.
+                    </p>
+                    <div className="flex flex-row justify-start items-center mt-6 mb-3">
+                      <img src={Firebase} alt="firebase" className="h-7" />
+                      <img src={ReactIcon} alt="react" className="h-6" />
+                    </div>
                 </div>
-              </div>
-            </div>
-          </a>
+            </a>
 
-          <a href="https://github.com/Vicba/Sociali" target="_blank">
-            <div className="border rounded-xl shadow-xl w-70 mx-10 md:w-60 md:mx-3 lg:h-98">
-              <div className="bg-gray-400 flex items-center justify-center h-20 rounded-t-xl bg-orange-600/70 backdrop-brightness-75">
-                <p className="text-2xl font-bold absolute text-white">
-                  Sociali
-                </p>
-              </div>
-              <div className="py-auto px-5">
-                <h3 className="text-left font-extrabold text-xl mt-5 text-dark-blue">
-                  Sociali
-                </h3>
-                <p className="text-left text-gray-400 mt-2 pb-8">
-                  Sociali is a simple instagram like photo-sharing app that
-                  allows users to share photos of their unique moments with
-                  friends and followers.
-                </p>
-                <div className="flex flex-row justify-start mt-5 mb-5 space-x-3">
-                  <img src={ReactIcon} alt="react" className="h-7" />
-                  <img src={Nodejs} alt="nodejs" className="h-7" />
-                  <img src={MongoDB} alt="MongoDB" className="h-6" />
-                  <img src={AWS} alt="aws" className="h-6" />
-                  <img src={Tailwind} alt="tailwind" className="h-6" />
+            <a href="https://github.com/Vicba/NLP-lyrics-genre" target="_blank">
+                <div className="max-w-[350px] sm:max-w-[400px] m-auto text-left flex flex-col h-36 p-4 bg-white/10 rounded-md border border-slate-400 hover:border-slate-700 transition-colors duration-75 cursor-pointer">
+                    <h1 className="font-semibold mb-1">NLP-lyrics-genre</h1>
+                    <p className="text-sm text-gray-800/70">Using NLP to classify lyrics sentences into the rap or pop genre.
+                    </p>
+                    <div className="flex flex-row justify-start items-center mt-6 mb-3 gap-2">
+                      <img src={Python} alt="Python" className="h-6" />
+                    </div>
                 </div>
-              </div>
-            </div>
-          </a>
+            </a>
 
-          <a href="https://github.com/Vicba/SentimentAPI" target="_blank">
-            <div className="border rounded-xl shadow-xl w-70 mx-10 md:w-60 md:mx-3 lg:h-98">
-              <div className="bg-gray-400 flex items-center justify-center h-20 rounded-t-xl bg-green-600/60 backdrop-brightness-75">
-                <p className="text-2xl font-bold absolute text-white">
-                  SentimentAPI
-                </p>
-              </div>
-              <div className="py-2 px-5">
-                <h3 className="text-left font-extrabold text-xl mt-3 text-dark-blue">
-                  SentimentAPI
-                </h3>
-                <p className="text-left text-gray-400 mt-2 pb-1">
-                  SentimentAPI is an API that allows users to analyze the sentiment of a text with NLP (AI). 
-                  Users can create API keys and use them to make requests to the API.
-                </p>
-                <div className="flex flex-row justify-start items-center mt-12 mb-3 space-x-3">
-                  <img src={Nextjs} alt="nextjs" className="h-6" />
-                  <img src={Python} alt="python" className="h-7" />
-                  <img src={Tailwind} alt="tailwindcss" className="h-7" />
+            <a href="https://github.com/Vicba/SentimentAPI" target="_blank">
+                <div className="max-w-[350px] sm:max-w-[400px] m-auto text-left flex flex-col h-36 p-4 bg-white/10 rounded-md border border-slate-400 hover:border-slate-700 transition-colors duration-75 cursor-pointer">
+                    <h1 className="font-semibold mb-1">SentimentAPI</h1>
+                    <p className="text-sm text-gray-800/70">
+                      API where users can analyse the sentiment of text with their API keys.
+                    </p>
+                    <div className="flex flex-row justify-start items-center mt-6 mb-3 gap-2">
+                      <img src={Nextjs} alt="nextjs" className="h-5" />
+                      <img src={Python} alt="python" className="h-6" />
+                      <img src={Tailwind} alt="tailwindcss" className="h-6" />
+                    </div>
                 </div>
-              </div>
-            </div>
-          </a>
+            </a>
+
+            <a href="https://github.com/Vicba/Sociali" target="_blank">
+                <div className="max-w-[350px] sm:max-w-[400px] m-auto text-left flex flex-col h-36 p-4 bg-white/10 rounded-md border border-slate-400 hover:border-slate-700 transition-colors duration-75 cursor-pointer">
+                    <h1 className="font-semibold mb-1">Sociali</h1>
+                    <p className="text-sm text-gray-800/70">Very simple instagram like photo-sharing app. This project was made 
+                      to explore the world of AWS.
+                    </p>
+                    <div className="flex flex-row justify-start items-center mt-6 mb-3 gap-2">
+                      <img src={ReactIcon} alt="react" className="h-6" />
+                      <img src={Nodejs} alt="nodejs" className="h-5" />
+                      <img src={MongoDB} alt="MongoDB" className="h-5" />
+                      <img src={AWS} alt="aws" className="h-5" />
+                      <img src={Tailwind} alt="tailwind" className="h-5" />
+                    </div>
+                </div>
+            </a>
         </motion.div>
       </div>
     </section>
