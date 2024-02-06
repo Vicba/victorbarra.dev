@@ -18,12 +18,9 @@ export default function About() {
           </p>
           <p className="flex flex-row gap-2">
             <span >👨‍💻</span> 
-            {/* I find joy in developing projects that could solve real-world problems or make our lives much easier, whether
-            it's writing code or exploring the latest advancements in
-            technology. I'm always open to dive into new challenges! */}
             <span>
-              I enjoy working on projects that address real-world issues or upgrade our daily lives. 
-              Starting this upcoming February, I will be doing an internship about evaluating RAG LLMs at <a className="font-bold text-egyptian-blue hover:underline" href="https://www.ml6.eu/" target="_blank">ML6</a>.
+              I enjoy working on projects that address real-world issues or upgrade our daily lives. <br/>
+              At the moment, I'm doing an internship about evaluating RAG solutions at <a className="font-bold text-egyptian-blue hover:underline" href="https://www.ml6.eu/" target="_blank">ML6</a>.
             </span>
           </p>
           <p className="flex flex-row gap-2">

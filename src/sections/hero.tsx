@@ -31,7 +31,7 @@ export default function Hero() {
               Hey, I'm Victor
             </h1>
             <p className="text-lg max-w-sm text-center text-darkGrayishBlue md:text-left md:text-xl">
-              Student developer passionate about technology.
+              Student developer interested in <br/> AI & full stack technologies
             </p>
             <div className="flex justify-center md:justify-start">
               <a
