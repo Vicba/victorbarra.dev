@@ -60,19 +60,6 @@ function Projects() {
           animate={control}
           className="w-full grid grid-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 mb-12 gap-3 sm:gap-2"
           >
-             <a href="https://github.com/Vicba/Chapro" target="_blank">
-                <div className="max-w-[350px] sm:max-w-[400px] m-auto text-left flex flex-col h-36 p-4 bg-white/10 rounded-md border border-slate-400 hover:border-slate-700 transition-colors duration-75 cursor-pointer">
-                    <h1 className="font-semibold mb-1">Chapro</h1>
-                    <p className="text-sm text-gray-800/70">Project management app that allows users to
-                      schedule and assign tasks with team members.
-                    </p>
-                    <div className="flex flex-row justify-start items-center mt-6 mb-3">
-                      <img src={Firebase} alt="firebase" className="h-7" />
-                      <img src={ReactIcon} alt="react" className="h-6" />
-                    </div>
-                </div>
-            </a>
-
             <a href="https://github.com/Vicba/NLP-lyrics-genre" target="_blank">
                 <div className="max-w-[350px] sm:max-w-[400px] m-auto text-left flex flex-col h-36 p-4 bg-white/10 rounded-md border border-slate-400 hover:border-slate-700 transition-colors duration-75 cursor-pointer">
                     <h1 className="font-semibold mb-1">NLP-lyrics-genre</h1>
@@ -83,7 +70,6 @@ function Projects() {
                     </div>
                 </div>
             </a>
-
             <a href="https://github.com/Vicba/SentimentAPI" target="_blank">
                 <div className="max-w-[350px] sm:max-w-[400px] m-auto text-left flex flex-col h-36 p-4 bg-white/10 rounded-md border border-slate-400 hover:border-slate-700 transition-colors duration-75 cursor-pointer">
                     <h1 className="font-semibold mb-1">SentimentAPI</h1>
@@ -94,6 +80,19 @@ function Projects() {
                       <img src={Nextjs} alt="nextjs" className="h-5" />
                       <img src={Python} alt="python" className="h-6" />
                       <img src={Tailwind} alt="tailwindcss" className="h-6" />
+                    </div>
+                </div>
+            </a>
+
+             <a href="https://github.com/Vicba/Chapro" target="_blank">
+                <div className="max-w-[350px] sm:max-w-[400px] m-auto text-left flex flex-col h-36 p-4 bg-white/10 rounded-md border border-slate-400 hover:border-slate-700 transition-colors duration-75 cursor-pointer">
+                    <h1 className="font-semibold mb-1">Chapro</h1>
+                    <p className="text-sm text-gray-800/70">Project management app that allows users to
+                      schedule and assign tasks with team members.
+                    </p>
+                    <div className="flex flex-row justify-start items-center mt-6 mb-3">
+                      <img src={Firebase} alt="firebase" className="h-7" />
+                      <img src={ReactIcon} alt="react" className="h-6" />
                     </div>
                 </div>
             </a>
@@ -113,6 +112,32 @@ function Projects() {
                     </div>
                 </div>
             </a>
+
+            <a href="https://github.com/Vicba/In-browser-markdown-editor" target="_blank">
+                <div className="max-w-[350px] sm:max-w-[400px] m-auto text-left flex flex-col h-36 p-4 bg-white/10 rounded-md border border-slate-400 hover:border-slate-700 transition-colors duration-75 cursor-pointer">
+                    <h1 className="font-semibold mb-1">In-Browser Markdown editor</h1>
+                    <p className="text-sm text-gray-800/70">In-browser markdown editor that I like as open tab to quickly make personal notes or things to remember.
+
+                    </p>
+                    <div className="flex flex-row justify-start items-center mt-6 mb-3 gap-2">
+                      <img src={Nextjs} alt="nextjs" className="h-5" />
+                      <img src={Tailwind} alt="tailwind" className="h-5" />
+                    </div>
+                </div>
+            </a>
+
+            <div>
+                <div className="max-w-[350px] sm:max-w-[400px] m-auto text-left flex flex-col h-36 p-4 bg-white/10 rounded-md border border-slate-400  transition-colors duration-75">
+                    <h1 className="font-semibold mb-1">Ongoing...</h1>
+                    <p className="text-sm text-gray-800/70">Building backend of internal RAG solution for ML6. Using python, terraform and GCP
+
+                    </p>
+                    {/* <div className="flex flex-row justify-start items-center mt-6 mb-3 gap-2">
+                      <img src={Nextjs} alt="nextjs" className="h-5" />
+                      <img src={Tailwind} alt="tailwind" className="h-5" />
+                    </div> */}
+                </div>
+            </div>
         </motion.div>
       </div>
     </section>

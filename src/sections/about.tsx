@@ -20,7 +20,7 @@ export default function About() {
             <span >👨‍💻</span> 
             <span>
               I enjoy working on projects that address real-world issues or upgrade our daily lives. <br/>
-              At the moment, I'm doing an internship about evaluating RAG solutions at <a className="font-bold text-egyptian-blue hover:underline" href="https://www.ml6.eu/" target="_blank">ML6</a>.
+              At the moment, I'm doing an internship about the evaluation of RAG solutions at <a className="font-bold text-egyptian-blue hover:underline" href="https://www.ml6.eu/" target="_blank">ML6</a>.
             </span>
           </p>
           <p className="flex flex-row gap-2">
@@ -33,7 +33,7 @@ export default function About() {
           <p className="flex flex-row gap-2" >
             <span>⚡</span>
             <span>
-              When I'm not coding, you'll find me reading, listening to music,
+              When I'm not coding, you'll find me reading, listening to house music,
               playing golf, going for a run, or just hanging out with friends.
               Check out my{" "}
               <a
