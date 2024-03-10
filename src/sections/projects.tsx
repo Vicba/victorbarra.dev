@@ -116,7 +116,7 @@ function Projects() {
             <a href="https://github.com/Vicba/In-browser-markdown-editor" target="_blank">
                 <div className="max-w-[350px] sm:max-w-[400px] m-auto text-left flex flex-col h-36 p-4 bg-white/10 rounded-md border border-slate-400 hover:border-slate-700 transition-colors duration-75 cursor-pointer">
                     <h1 className="font-semibold mb-1">In-Browser Markdown editor</h1>
-                    <p className="text-sm text-gray-800/70">In-browser markdown editor that I like as open tab to quickly make personal notes or things to remember.
+                    <p className="text-sm text-gray-800/70">In-browser markdown editor, I like it as an open tab to make personal notes or things to remember.
 
                     </p>
                     <div className="flex flex-row justify-start items-center mt-6 mb-3 gap-2">
