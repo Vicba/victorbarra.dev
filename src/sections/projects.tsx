@@ -47,7 +47,7 @@ function Projects() {
     >
       <div className="flex flex-col items-center justify-center">
         <div className="mt-8 md:mt-12">
-          <h2 className="text-4xl mx-4 md:text-5xl font-extrabold">
+          <h2 className="text-4xl mx-4 md:text-5xl font-extrabold font-cal">
             Personal Projects
           </h2>
           <p className="text-xl mx-3 md:text-xl py-6 text-gray-500">

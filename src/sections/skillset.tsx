@@ -8,7 +8,7 @@ export default function Skillset() {
         <section id="skills" className='md:h-screen w-full bg-dark-blue text-white flex flex-col items-center justify-center py-28 md:my-0'>
 
             <div className='my-12'>
-                <h2 className='text-4xl mx-4 md:text-5xl font-extrabold'>Skillset</h2>
+                <h2 className='text-4xl mx-4 md:text-5xl font-extrabold font-cal'>Skillset</h2>
             </div>
 
             <div className='w-5/6 flex flex-col items-center justify-center space-y-10 lg:flex-row lg:space-x-40 lg:space-y-0'>

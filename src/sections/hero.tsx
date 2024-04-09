@@ -27,16 +27,16 @@ export default function Hero() {
           className="absolute w-full h-full flex flex-col-reverse items-center justify-center text-center text-white p-4 mx-auto lg:flex-row"
         >
           <div className="flex flex-col space-y-12 md:w-1/2">
-            <h1 className="max-w-md text-4xl font-extrabold text-center md:text-6xl md:text-left">
+            <h1 className="font-cal max-w-md text-4xl font-extrabold text-center md:text-6xl md:text-left">
               Hey, I'm Victor
             </h1>
-            <p className="text-lg max-w-sm text-center text-darkGrayishBlue md:text-left md:text-xl">
+            <p className="text-lg max-w-sm text-center text-darkGrayishBlue font-light md:text-left md:text-xl">
               Student developer interested in <br/> AI & full stack technologies
             </p>
             <div className="flex justify-center md:justify-start">
               <a
                 href="#about"
-                className="pt-2 text-white rounded-full font-bold hover:underline underline-offset-4"
+                className="pt-2 text-white rounded-full font-semibold hover:underline underline-offset-4"
               >
                 View more
                 <FontAwesomeIcon

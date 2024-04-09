@@ -11,7 +11,7 @@ export default function Footer() {
       id="footer"
       className="w-full bg-dark-blue text-white flex flex-col items-center justify-center py-24 border-none md:h-full  md:pt-30"
     >
-      <h1 className="my-5 font-bold text-lg">Let's talk!</h1>
+      <h1 className="my-5 font-bold text-xl font-cal">Let's talk!</h1>
       <Status/>
 
       <div className="w-3/4 mb-8 flex flex-wrap gap-12 justify-center">

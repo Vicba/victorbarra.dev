@@ -16,6 +16,9 @@ export default {
       },
       backgroundImage: {
         'hero': "url('./assets/images/bg.png')",
+      },
+      fontFamily: {
+        'cal': ['Cal Sans', 'sans-serif']
       }
     },
   },

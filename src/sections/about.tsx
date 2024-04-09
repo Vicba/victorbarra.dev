@@ -5,7 +5,7 @@ export default function About() {
     <section id="about" className="w-full">
       <div className="flex flex-col items-center justify-center">
         <div className="mt-8 md:mt-16 md:mb-10">
-          <h2 className="text-4xl mx-4 my-4 md:text-5xl font-extrabold">
+          <h2 className="text-4xl mx-4 my-4 md:text-5xl font-extrabold font-cal">
             About Me
           </h2>
         </div>
