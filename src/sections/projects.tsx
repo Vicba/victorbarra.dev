@@ -9,8 +9,10 @@ import Nextjs from '../assets/images/nextjs-icon.svg'
 // import Figma from "../assets/images/figma.png";
 import AWS from "../assets/images/aws.png";
 import Firebase from "../assets/images/firebase.png";
+import Weaviate from "../assets/images/weaviate.png";
 // import Postgresql from "../assets/images/postgresql.png";
 import MongoDB from "../assets/images/mongoDB.png";
+import Docker from "../assets/images/docker.svg"
 // import Linux from "../assets/images/linux.png";
 // import Redux from "../assets/images/redux.png";
 
@@ -60,6 +62,19 @@ function Projects() {
           animate={control}
           className="w-full grid grid-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 mb-12 gap-3 sm:gap-2"
           >
+            <a href="https://github.com/Vicba/movies-recommendation" target="_blank">
+                <div className="max-w-[350px] sm:max-w-[400px] m-auto text-left flex flex-col h-36 p-4 bg-white/10 rounded-md border border-slate-400 hover:border-slate-700 transition-colors duration-75 cursor-pointer">
+                    <h1 className="font-semibold mb-1">Movies app</h1>
+                    <p className="text-sm text-gray-800/70">Netflix clone with vector db for similar movie recommendation</p>
+                    <div className="flex flex-row justify-start items-center mt-6 mb-3 gap-2">
+                      <img src={Nextjs} alt="nextjs" className="h-5" />
+                      <img src={Python} alt="python" className="h-6" />
+                      <img src={Tailwind} alt="tailwindcss" className="h-6" />
+                      <img src={Docker} alt="docker" className="h-4" />
+                      <img src={Weaviate} alt="weaviate" className="h-6" />
+                    </div>
+                </div>
+            </a>
             <a href="https://github.com/Vicba/NLP-lyrics-genre" target="_blank">
                 <div className="max-w-[350px] sm:max-w-[400px] m-auto text-left flex flex-col h-36 p-4 bg-white/10 rounded-md border border-slate-400 hover:border-slate-700 transition-colors duration-75 cursor-pointer">
                     <h1 className="font-semibold mb-1">NLP-lyrics-genre</h1>
@@ -126,18 +141,18 @@ function Projects() {
                 </div>
             </a>
 
-            <div>
+            {/* <div>
                 <div className="max-w-[350px] sm:max-w-[400px] m-auto text-left flex flex-col h-36 p-4 bg-white/10 rounded-md border border-slate-400  transition-colors duration-75">
                     <h1 className="font-semibold mb-1">Ongoing...</h1>
                     <p className="text-sm text-gray-800/70">Building backend of internal RAG solution for ML6. Using python, terraform and GCP
 
                     </p>
-                    {/* <div className="flex flex-row justify-start items-center mt-6 mb-3 gap-2">
+                    <div className="flex flex-row justify-start items-center mt-6 mb-3 gap-2">
                       <img src={Nextjs} alt="nextjs" className="h-5" />
                       <img src={Tailwind} alt="tailwind" className="h-5" />
-                    </div> */}
+                    </div>
                 </div>
-            </div>
+            </div> */}
         </motion.div>
       </div>
     </section>

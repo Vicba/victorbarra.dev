@@ -36,9 +36,9 @@ export default function Hero() {
             <div className="flex justify-center md:justify-start">
               <a
                 href="#about"
-                className="pt-2 text-white rounded-full font-bold hover:underline"
+                className="pt-2 text-white rounded-full font-bold hover:underline underline-offset-4"
               >
-                View more{" "}
+                View more
                 <FontAwesomeIcon
                   icon={faLongArrowAltRight}
                   className="ml-2 hover:translate-x-2 hover:ease-in duration-150"
