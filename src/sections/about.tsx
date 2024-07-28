@@ -20,7 +20,6 @@ export default function About() {
             <span >👨‍💻</span> 
             <span>
               I enjoy working on projects that address real-world issues or upgrade our daily lives. <br/>
-              At the moment, I'm doing an internship about the evaluation of RAG solutions at <a className="font-bold text-egyptian-blue hover:underline" href="https://www.ml6.eu/" target="_blank">ML6</a>.
             </span>
           </p>
           <p className="flex flex-row gap-2">

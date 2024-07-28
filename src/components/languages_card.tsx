@@ -4,6 +4,7 @@ import Nodejs from '../assets/images/node.png'
 import Python from '../assets/images/python.png'
 import Tailwind from '../assets/images/tailwind.png'
 import Nextjs from '../assets/images/nextjs.png'
+import Pytorch from '../assets/images/pytorch.png'
 
 
 export default function Languages_card() {
@@ -15,6 +16,7 @@ export default function Languages_card() {
             <li className='flex flex-row'>Python <img src={Python} alt="python" className='h-6 ml-2' /></li>
             <li className='flex flex-row'>Typescript <img src={Typescript} alt="Typescript" className='h-5 ml-2' /></li>
             <li className='flex flex-row'>Tailwindcss <img src={Tailwind} alt="Tailwindcss" className='h-5 ml-2' /></li>
+            <li className='flex flex-row'>Pytorch <img src={Pytorch} alt="Typescript" className='h-6 ml-2' /></li>
         </ul>
     )
 }
