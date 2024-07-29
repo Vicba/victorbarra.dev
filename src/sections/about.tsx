@@ -14,7 +14,7 @@ export default function About() {
      
           <p className="flex flex-row gap-2">
             <span>📍</span> 
-            I'm an applied Computer Science student from Bruges, Belgium.
+            Currently located in Gistel, Belgium.
           </p>
           <p className="flex flex-row gap-2">
             <span >👨‍💻</span> 
@@ -24,25 +24,21 @@ export default function About() {
           </p>
           <p className="flex flex-row gap-2">
             <span >🎓</span>
-            Currently majoring in AI and learning full-stack development on the
-            side. My journey involves continuous learning, making mistakes, and
-            keep going.
+            Graduated in applied computer science with a major in AI.
+            My journey involves continuous learning, making mistakes, and keep going.
           </p>
 
           <p className="flex flex-row gap-2" >
             <span>⚡</span>
             <span>
-              When I'm not coding, you'll find me reading, listening to house music,
-              playing golf, going for a run, or just hanging out with friends.
-              Check out my{" "}
-              <a
+            Outside of coding, you’ll find me reading, enjoying house music, playing golf, running or hanging out with friends. 
+            Feel free to check out my <a
                 className="font-bold text-egyptian-blue hover:underline"
                 href="https://blog-victor-barra.netlify.app/"
                 target="_blank"
               >
                 blog
-              </a>
-              , where I share some of my thoughts and experiences.
+              </a> where I share some of my thoughts and experiences.
             </span>
           </p>
 
@@ -50,7 +46,7 @@ export default function About() {
             Do you want to learn more about me or just have a fun chat?{" "}
             <a className="underline" href="#footer">
               Hit me up!
-            </a>{" "}
+            </a>
           </p>     
         </div>
       </div>

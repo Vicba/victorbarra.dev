@@ -9,7 +9,7 @@ export default function Footer() {
   return (
     <section
       id="footer"
-      className="w-full bg-dark-blue text-white flex flex-col items-center justify-center py-24 border-none md:h-full  md:pt-30"
+      className="w-full bg-dark-blue text-white flex flex-col items-center justify-center py-24 border-none md:h-full  md:pt-30 overflow-hidden"
     >
       <h1 className="my-5 font-bold text-xl font-cal">Let's talk!</h1>
       <Status/>
