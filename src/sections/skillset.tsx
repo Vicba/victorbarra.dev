@@ -5,7 +5,7 @@ import Tools_items from '../components/tools_items'
 
 export default function Skillset() {
     return (
-        <section id="skills" className='md:h-screen w-full bg-dark-blue text-white flex flex-col items-center justify-center py-28 md:my-0'>
+        <section id="skills" className='md:h-screen w-full bg-dark-blue text-white flex flex-col items-center justify-center py-16 md:my-0'>
 
             <div className='my-12'>
                 <h2 className='text-4xl mx-4 md:text-5xl font-extrabold font-cal'>Skillset</h2>
