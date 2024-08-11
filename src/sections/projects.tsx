@@ -8,7 +8,6 @@ import Nextjs from '../assets/images/nextjs-icon.svg'
 // import Github from "../assets/images/java.png";
 // import Figma from "../assets/images/figma.png";
 import AWS from "../assets/images/aws.png";
-import Firebase from "../assets/images/firebase.png";
 import Weaviate from "../assets/images/weaviate.png";
 // import Postgresql from "../assets/images/postgresql.png";
 import MongoDB from "../assets/images/mongoDB.png";

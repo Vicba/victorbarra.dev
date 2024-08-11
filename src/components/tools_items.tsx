@@ -1,6 +1,5 @@
 import Github from '../assets/images/github.png'
 import Figma from '../assets/images/figma.png'
-import AWS from '../assets/images/aws.png'
 import Docker from '../assets/images/docker.svg'
 import MySQL from '../assets/images/mysql.png'
 import MongoDB from '../assets/images/mongoDB.png'
