@@ -81,7 +81,7 @@ function Projects() {
             <a href="https://github.com/Vicba/BirdSnap" target="_blank">
                 <div className="max-w-[350px] sm:max-w-[400px] m-auto text-left flex flex-col h-36 p-4 bg-white/10 rounded-md border border-slate-400 hover:border-slate-700 transition-colors duration-75 cursor-pointer">
                     <h1 className="font-semibold mb-1">BirdSnap</h1>
-                    <p className="text-sm text-gray-800/70">CNN model to classify bird species using a kaggle dataset. Build this to learn PyTorch and Weights&Biases.
+                    <p className="text-sm text-gray-800/70">CNN model to classify bird species using a kaggle dataset. Learned PyTorch and Weights&Biases.
                     </p>
                     <div className="flex flex-row justify-start items-center mt-6 mb-3 gap-2">
                       <img src={Pytorch} alt="pytorch" className="h-7" />
@@ -136,7 +136,7 @@ function Projects() {
             <a href="https://github.com/Vicba/In-browser-markdown-editor" target="_blank">
                 <div className="max-w-[350px] sm:max-w-[400px] m-auto text-left flex flex-col h-36 p-4 bg-white/10 rounded-md border border-slate-400 hover:border-slate-700 transition-colors duration-75 cursor-pointer">
                     <h1 className="font-semibold mb-1">In-Browser Markdown editor</h1>
-                    <p className="text-sm text-gray-800/70">Note taking markdown editor I've made to have it as an open tab for personal notes or things to remember.
+                    <p className="text-sm text-gray-800/70">Note taking markdown editor, have it as an open tab to save things to remember.
 
                     </p>
                     <div className="flex flex-row justify-start items-center mt-6 mb-3 gap-2">
