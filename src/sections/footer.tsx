@@ -1,7 +1,7 @@
 import Footer_link from "../components/footer_link";
 
 import CV from "../assets/CV.pdf";
-import { Blog, GitHubIcon, LinkedinLogo, MailIcon, Resume, SpotifyLogo, TwitterIcon } from "../Icons";
+import { Blog, GitHubIcon, LinkedinLogo, MailIcon, Resume, SpotifyLogo, TwitterIcon, HuggingFace } from "../Icons";
 import Status from "../components/status";
 import Spotify from "../components/spotify";
 
@@ -51,6 +51,12 @@ export default function Footer() {
           title="Spotify"
           link="https://open.spotify.com/user/1114228739"
           icon={<SpotifyLogo/>}
+        />
+
+        <Footer_link
+          title="HuggingFace"
+          link="https://huggingface.co/victorbarra"
+          icon={<HuggingFace/>}
         />
       </div>
 

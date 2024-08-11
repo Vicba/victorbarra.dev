@@ -5,6 +5,7 @@ import Skillset from './sections/skillset'
 import Footer from './sections/footer'
 import Hero from './sections/hero'
 import ScrollButton from './components/scrollButton'
+import Experiences from './sections/experiences'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       {/* Website coming soon */}
       <Hero/>
       <About/>
+      <Experiences/>
       <Projects/>
       <Skillset/>
       <Footer/>
