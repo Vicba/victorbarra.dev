@@ -1,4 +1,4 @@
-import Image from "../assets/images/bg.png";
+import Image from "../assets/images/bg-2.png";
 import Profile_image from "../components/profile_image";
 
 import { faLongArrowAltRight } from '@fortawesome/free-solid-svg-icons';
