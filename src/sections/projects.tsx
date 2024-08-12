@@ -8,13 +8,15 @@ import Nextjs from '../assets/images/nextjs-icon.svg'
 // import Github from "../assets/images/java.png";
 // import Figma from "../assets/images/figma.png";
 import AWS from "../assets/images/aws.png";
-import Firebase from "../assets/images/firebase.png";
 import Weaviate from "../assets/images/weaviate.png";
 // import Postgresql from "../assets/images/postgresql.png";
 import MongoDB from "../assets/images/mongoDB.png";
 import Docker from "../assets/images/docker.svg"
 // import Linux from "../assets/images/linux.png";
+import Pytorch from "../assets/images/pytorch.png"
 // import Redux from "../assets/images/redux.png";
+import GCP from "../assets/images/gcp.png"
+import WB from "../assets/images/w&b.png"
 
 import {useEffect} from "react"
 import {motion, useAnimation} from "framer-motion"
@@ -75,6 +77,20 @@ function Projects() {
                     </div>
                 </div>
             </a>
+
+            <a href="https://github.com/Vicba/BirdSnap" target="_blank">
+                <div className="max-w-[350px] sm:max-w-[400px] m-auto text-left flex flex-col h-36 p-4 bg-white/10 rounded-md border border-slate-400 hover:border-slate-700 transition-colors duration-75 cursor-pointer">
+                    <h1 className="font-semibold mb-1">BirdSnap</h1>
+                    <p className="text-sm text-gray-800/70">CNN model to classify bird species using a kaggle dataset. Learned PyTorch and Weights&Biases.
+                    </p>
+                    <div className="flex flex-row justify-start items-center mt-6 mb-3 gap-2">
+                      <img src={Pytorch} alt="pytorch" className="h-7" />
+                      <img src={WB} alt="Weights&Biases" className="h-5" />
+                      <img src={GCP} alt="Google cloud platform" className="h-4" />
+                    </div>
+                </div>
+            </a>
+
             <a href="https://github.com/Vicba/NLP-lyrics-genre" target="_blank">
                 <div className="max-w-[350px] sm:max-w-[400px] m-auto text-left flex flex-col h-36 p-4 bg-white/10 rounded-md border border-slate-400 hover:border-slate-700 transition-colors duration-75 cursor-pointer">
                     <h1 className="font-semibold mb-1">NLP-lyrics-genre</h1>
@@ -99,18 +115,7 @@ function Projects() {
                 </div>
             </a>
 
-             <a href="https://github.com/Vicba/Chapro" target="_blank">
-                <div className="max-w-[350px] sm:max-w-[400px] m-auto text-left flex flex-col h-36 p-4 bg-white/10 rounded-md border border-slate-400 hover:border-slate-700 transition-colors duration-75 cursor-pointer">
-                    <h1 className="font-semibold mb-1">Chapro</h1>
-                    <p className="text-sm text-gray-800/70">Project management app that allows users to
-                      schedule and assign tasks with team members.
-                    </p>
-                    <div className="flex flex-row justify-start items-center mt-6 mb-3">
-                      <img src={Firebase} alt="firebase" className="h-7" />
-                      <img src={ReactIcon} alt="react" className="h-6" />
-                    </div>
-                </div>
-            </a>
+             
 
             <a href="https://github.com/Vicba/Sociali" target="_blank">
                 <div className="max-w-[350px] sm:max-w-[400px] m-auto text-left flex flex-col h-36 p-4 bg-white/10 rounded-md border border-slate-400 hover:border-slate-700 transition-colors duration-75 cursor-pointer">
@@ -131,7 +136,7 @@ function Projects() {
             <a href="https://github.com/Vicba/In-browser-markdown-editor" target="_blank">
                 <div className="max-w-[350px] sm:max-w-[400px] m-auto text-left flex flex-col h-36 p-4 bg-white/10 rounded-md border border-slate-400 hover:border-slate-700 transition-colors duration-75 cursor-pointer">
                     <h1 className="font-semibold mb-1">In-Browser Markdown editor</h1>
-                    <p className="text-sm text-gray-800/70">In-browser markdown editor, I like it as an open tab to make personal notes or things to remember.
+                    <p className="text-sm text-gray-800/70">Note taking markdown editor, have it as an open tab to save things to remember.
 
                     </p>
                     <div className="flex flex-row justify-start items-center mt-6 mb-3 gap-2">
@@ -140,19 +145,6 @@ function Projects() {
                     </div>
                 </div>
             </a>
-
-            {/* <div>
-                <div className="max-w-[350px] sm:max-w-[400px] m-auto text-left flex flex-col h-36 p-4 bg-white/10 rounded-md border border-slate-400  transition-colors duration-75">
-                    <h1 className="font-semibold mb-1">Ongoing...</h1>
-                    <p className="text-sm text-gray-800/70">Building backend of internal RAG solution for ML6. Using python, terraform and GCP
-
-                    </p>
-                    <div className="flex flex-row justify-start items-center mt-6 mb-3 gap-2">
-                      <img src={Nextjs} alt="nextjs" className="h-5" />
-                      <img src={Tailwind} alt="tailwind" className="h-5" />
-                    </div>
-                </div>
-            </div> */}
         </motion.div>
       </div>
     </section>
